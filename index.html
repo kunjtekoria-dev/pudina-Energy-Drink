@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pudina Har Gut Amrt</title>
+    <style>
+        /* General reset and box-sizing */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background-color: #000;
+            font-family: 'Arial Black', Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #e63946; /* Bold reddish color similar to label */
+            text-shadow: 2px 2px 5px rgba(230,57,70,0.7);
+        }
+
+        main {
+            text-align: center;
+        }
+
+        .bottle-image {
+            max-width: 300px;
+            width: 80vw;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 0 30px 10px rgba(16, 255, 0, 0.6);
+            margin-bottom: 30px;
+        }
+
+        .description {
+            font-size: 1.25rem;
+            max-width: 470px;
+            margin: 0 auto 40px;
+            line-height: 1.5;
+            color: #a8d5ba;
+        }
+
+        .btn-order {
+            background-color: #e63946;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 15px rgba(230,57,70,0.6);
+        }
+
+        .btn-order:hover {
+            background-color: #b22234;
+        }
+
+        footer {
+            margin-top: auto;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        @media (max-width: 400px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .description {
+                font-size: 1rem;
+            }
+
+            .btn-order {
+                padding: 12px 30px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pudina Har Gut Amrt</h1>
+    </header>
+
+    <main>
+        <img 
+            src="https://i.imgur.com/jxuJ4do.png" 
+            alt="Pudina Har Gut Amrt Bottle" 
+            class="bottle-image" 
+        />
+        <p class="description">
+            Refresh yourself with the crisp and invigorating taste of Pudina Har Gut Amrt. This mint-flavored drink is perfect for a burst of freshness anytime, anywhere.
+        </p>
+        <button class="btn-order" onclick="alert('Thank you for ordering Pudina Har Gut Amrt!')">
+            Order Now
+        </button>
+    </main>
+
+    <footer>
+        &copy; 2024 Pudina Har Gut Amrt. All rights reserved.
+    </footer>
+</body>
+</html>
+
+<footer style="background:#000; color:#fff; text-align:center; padding:20px; margin-top:40px;">
+
+    <h3 style="color:red;">Pudina Har Gut Amrt</h3>
+
+    <p>स्वस्थ पाचन के लिए प्राकृतिक पुदीना पेय</p>
+
+    <p>📞 संपर्क: +91 9813342576</p>
+    <p>📧 Email: info@pudinadrink.com</p>
+
+    <div style="margin:15px 0;">
+        <a href="#" style="color:white; margin:0 10px; text-decoration:none;">Facebook</a> |
+        <a href="#" style="color:white; margin:0 10px; text-decoration:none;">Instagram</a> |
+        <a href="#" style="color:white; margin:0 10px; text-decoration:none;">WhatsApp</a>
+    </div>
+
+    <p style="margin-top:15px;">© 2024 Pudina Har Gut Amrt. सर्वाधिकार सुरक्षित।</p>
+
+</footer>
